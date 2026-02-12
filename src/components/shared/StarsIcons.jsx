@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Star } from 'lucide-react'
 
 export default function StarIcons() {
-  // i used it to make srars interactive with user 
+  // i used it to make srars interactive with user
   const [activeStars, setActiveStars] = useState(0)
   const stars = []
   for (let i = 1; i <= 5; i++) {

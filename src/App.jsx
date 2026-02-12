@@ -10,12 +10,12 @@ function App() {
 
   return (
     <>
-     <Hero />
+      <Hero />
       <About />
       <Services />
-      <Testimonials/>
-      <Contact/>
-      <FooterApp/>
+      <Testimonials />
+      <Contact />
+      <FooterApp />
     </>
   )
 }

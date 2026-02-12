@@ -10,6 +10,7 @@ body {
   clip-path: url("/sections_clip.svg#custom-clip");
   overflow: hidden;
   background-color: #e7e7e6;
+  
 }
 
 .logo-icon {

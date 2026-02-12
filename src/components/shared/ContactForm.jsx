@@ -66,25 +66,16 @@ export default function ContactForm() {
         // ui
         <form onSubmit={handleSubmit(sendData)} className="flex w-full justify-center items-center max-w-md flex-col gap-3.5">
             <div>
-                <input className='bg-[#CEDCFF] rounded-full pl-8 py-5   w-[374px] outline-none
-                    transition-all duration-300
-                    focus:ring-4 focus:ring-blue-300/50
-                    focus:border-blue-500'
+                <input className='input-style'
                     id="name" type="text" placeholder="Name"   {...register("name")} />
                 <ValidationError error={errors.name} />
             </div>
             <div>
-                <input className='bg-[#CEDCFF] rounded-full pl-8 py-5  w-[374px] outline-none
-                    transition-all duration-300
-                    focus:ring-4 focus:ring-blue-300/50
-                    focus:border-blue-500' id="email" type="email" placeholder="Email"  {...register("email")} />
+                <input className='input-style' id="email" type="email" placeholder="Email"  {...register("email")} />
                 <ValidationError error={errors.email} />
             </div>
             <div>
-                <input className='bg-[#CEDCFF] rounded-full pl-8 py-5  w-[374px] outline-none
-                    transition-all duration-300
-                    focus:ring-4 focus:ring-blue-300/50
-                    focus:border-blue-500' id="phone" type="tel" placeholder="Phone"  {...register("phone")} />
+                <input className='input-style' id="phone" type="tel" placeholder="Phone"  {...register("phone")} />
                 <ValidationError error={errors.phone} />
             </div>
             {/* button make button disabled  if user not enter data  and using spinner*/}

@@ -1,8 +1,7 @@
 
 import React from 'react'
-import ButtonComponent from '../../components/ui/Button'
 import headerBg from '../../assets/headerBg.webp'
-import { Van } from 'lucide-react'
+import ButtonComponent from '../../components/ui/Button'
 export default function Header() {
   return (
     <>
@@ -35,7 +34,7 @@ export default function Header() {
                 industry's standard dummy text ever since the
               </div>
 
-              <ButtonComponent text={"Help Me"} />
+              <ButtonComponent  text={"Help Me"} />
 
 
             </div>

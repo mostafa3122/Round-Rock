@@ -2,4 +2,11 @@
 @import "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
 
-
+@layer components {
+  .input-style {
+    @apply bg-[#CEDCFF] rounded-full pl-8 py-5   w-[374px] outline-none
+        transition-all duration-300
+        focus:ring-4 focus:ring-blue-300/50
+        focus:border-blue-500;
+  }
+}
