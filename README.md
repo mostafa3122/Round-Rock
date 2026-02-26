@@ -1,12 +1,30 @@
-# React + Vite
+# 🚛 Round Rock – Trash Hauling Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React + Vite + Tailwind CSS landing page** for a trash hauling service called **Round Rock**.  
+Responsive, clean UI-built landing page with smooth animations and flow-based layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧱 About the Project
 
-## Expanding the ESLint configuration
+This landing page demonstrates:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Clean responsive layout using Tailwind CSS  
+✔ Component-based structure in React  
+✔ Flowbite UI components  
+✔ Fast client-side performance with Vite  
+✔ Well organized style and code structure
+
+**It is built as a frontend landing page, not a full web application.**
+
+---
+
+## 📦 Tech Stack
+
+- React (v19)  
+- Vite 
+- Tailwind CSS (utility-first styling)  
+- Flowbite & Flowbite-React UI components  
+- Lucide icon library (for icons)  
+- SweetAlert2 (alerts & feedback)  
+- axios 
